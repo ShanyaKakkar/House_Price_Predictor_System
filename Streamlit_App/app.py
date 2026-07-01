@@ -13,10 +13,9 @@ st.set_page_config(
 )
 
 # ---------- LOAD MODEL ----------
-model = joblib.load('../Model/house_price_model.pkl')
-model_columns = joblib.load('../Model/model_columns.pkl')
-feature_info = joblib.load('../Model/feature_info.pkl')
-
+model = joblib.load('Model/house_price_model.pkl')
+model_columns = joblib.load('Model/model_columns.pkl')
+feature_info = joblib.load('Model/feature_info.pkl')
 # ---------- VACATION / COASTAL THEME CSS ----------
 st.markdown("""
     <style>
